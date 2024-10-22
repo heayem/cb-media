@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Khmer&family=Roboto+Condensed&display=swap');
+
+body {
+    background-image: url("/image/backgroundCbmedia.png");
+    background-size: cover;
+    background-position: left center;
+    
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Outfit", "Arial", sans-serif;
+    font-weight: bold;
+}
+
+p {
+    font-family: "Lato", "Arial", sans-serif;
+}
+
+.font-khmer h1,
+.font-khmer h2,
+.font-khmer h3,
+.font-khmer h4,
+.font-khmer h5,
+.font-khmer h6 {
+    font-family: "Khmer", "Roboto Condensed", sans-serif;
+    font-weight: 600;
+}
+
+.font-khmer p {
+    font-family: "Khmer", sans-serif;
+}
+
+.font-english h1,
+.font-english h2,
+.font-english h3,
+.font-english h4,
+.font-english h5,
+.font-english h6 {
+    font-family: "Outfit", "Arial", sans-serif;
+    font-weight: bold;
+}
+
+.font-english p {
+    font-family: "Lato", "Arial", sans-serif;
+}

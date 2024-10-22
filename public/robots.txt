@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+
+# sitemap
+Sitemap: https://cbmedia-asia.com/sitemap.xml
